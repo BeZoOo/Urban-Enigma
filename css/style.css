@@ -2270,7 +2270,7 @@ header .burger {
 }
 .shirt-log {
 		width:100%;
-		margin-left: -2%;
+		margin-left: -62%;
 }
 .non-selected {
 		width: 100%;
@@ -2285,13 +2285,14 @@ header .burger {
 .cap-log {
 		width: 100%;
 		margin-top: 10px;
+		margin-left: -68%;
 }
 
 .cloth-log {
 		width: 90%;
 		margin-top: 25px;
 		position: absolute;
-		left: -15%;
+		left: -25%;
 }
 .cloth-log img {
 		width: 100%;
@@ -2304,7 +2305,7 @@ header .burger {
     position: relative;
 		margin-top: 30%;
 		padding-top: 1px;
-    left: -15%;
+    left: -32%;
 }
 .category-container {
     position:relative;
@@ -3357,18 +3358,18 @@ fieldset, label { margin: 0; padding: 0; }
 			margin-left: 22%;
 		}
 		.shirt-log {
-    	margin-left: 13%;
+    	margin-left: -18%;
 		}
 		.cap-log {
-			margin-left: 9%;
+			margin-left: -20%;
 		}
 		.cloth-log {
 			width: 85%;
 			left: 0;
 		}
 		.descrip-size {
-			width: 85%;
-			left: 0;
+			width: 90%;
+			left: -14px;
 		}
 		.about-content h1 {
 	        padding-bottom:0;
