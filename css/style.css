@@ -2645,7 +2645,7 @@ figcaption .captt {
 	display: block;
 }
 .x-close {
-		width: 20%;
+		width: 12%;
 		height: 30px;
 		background: url(../images/register-close.png) no-repeat center;
 		background-size: cover;
@@ -3345,11 +3345,11 @@ fieldset, label { margin: 0; padding: 0; }
         padding-top:0.5em;
     }
 		.in-cart-img {
-				bottom: 779%;
+				bottom: 733%;
 				left: -2%;
 		}
 		.cart-in {
-				width: 121%;
+				width: 115%;
 		}
 }
 @media screen and (max-width:1290px) {
