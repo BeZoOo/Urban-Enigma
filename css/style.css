@@ -2256,10 +2256,11 @@ header .burger {
 /******************* CATEGORY *******************/
 /************************************************/
 .main-cont {
-	padding: 100px 0 20px;
+	margin-top: 3%;
 }
 .side {
 	position: relative;
+	margin-top: 6%;
 }
 .item-log {
 		width:40%;
@@ -2270,7 +2271,6 @@ header .burger {
 }
 .shirt-log {
 		width:100%;
-		margin-left: -62%;
 }
 .non-selected {
 		width: 100%;
@@ -2285,14 +2285,14 @@ header .burger {
 .cap-log {
 		width: 100%;
 		margin-top: 10px;
-		margin-left: -68%;
+
 }
 
 .cloth-log {
 		width: 90%;
 		margin-top: 25px;
 		position: absolute;
-		left: -25%;
+
 }
 .cloth-log img {
 		width: 100%;
@@ -2305,7 +2305,6 @@ header .burger {
     position: relative;
 		margin-top: 30%;
 		padding-top: 1px;
-    left: -32%;
 }
 .category-container {
     position:relative;
@@ -2688,7 +2687,7 @@ figcaption .captt {
 .add-to-cart-container {
     display:flex;
     -webkit-display:flex;
-    margin-top:30px;
+    margin-top:50px;
 }
 .add-to-cart-container input {
     font-size:10px;
@@ -2699,6 +2698,12 @@ figcaption .captt {
 }
 .save-it {
     width:33%;
+}
+.remove-padding {
+		padding: 0;
+}
+.sort-by-collections h5 {
+		font-size: 13px;
 }
 /* Category Pagination */
 .pagin {
@@ -2711,7 +2716,7 @@ figcaption .captt {
 .main-pagin {
 	position: relative;
 	width: 100%;
-	height: 50px;
+	height: 60px;
 }
 .cat-pagination ul {
     display: inline-block;
@@ -2723,7 +2728,8 @@ figcaption .captt {
 .cat-pagin {
 		margin: 0;
 		position: absolute;
-		right: 10%;
+		right: 15%;
+		top: 5px;
 }
 .cat-pagin a {
 		font-family: 'KGSecondChancesSketch';
@@ -2753,7 +2759,7 @@ figcaption .captt {
 .back-bag {
 	width: 11%;
 	position: absolute;
-	right: 57%;
+	right: 54%;
 }
 .back-bag img,
 .next-bag img {
@@ -3253,19 +3259,19 @@ fieldset, label { margin: 0; padding: 0; }
 }
 @media screen and (max-width:1660px) {
 	.item-log {
-			margin-left: 1%;
+			margin-left: 30%;
 	}
 	.cap-log {
-		margin-left: -7%;
+
 	}
 	.shirt-log {
-			margin-left: -50%;
+
 	}
 	.cloth-log {
-			left: -21%;
+
 	}
 	.descrip-size {
-			left: -21%;
+
 	}
 	.category-container .header-bg {
 			height: 395px;
@@ -3288,13 +3294,13 @@ fieldset, label { margin: 0; padding: 0; }
 }
 @media screen and (min-width:1501) {
 	.item-log {
-		margin-left: 2%;
+
 	}
 	.cap-log {
-		margin-left: 3%;
+
 	}
 	.shirt-log {
-		margin-left: 2%;
+
 	}
 }
 
@@ -3306,7 +3312,7 @@ fieldset, label { margin: 0; padding: 0; }
         font-size:0.9em;
     }
 		.cap-log {
-    		margin-left: -40%;
+
 		}
 }
 @media screen and (max-width:1400px) {
@@ -3315,19 +3321,19 @@ fieldset, label { margin: 0; padding: 0; }
 		}
 		.item-log {
 			width: 40%;
-    	margin-top: 45px;
-    	margin-left: 10%;
+    	margin-top: 0;
+
 		}
 		.cloth-log {
 			width: 90%;
-			left: -10%;
+
 		}
 		.shirt-log {
-			margin-left: -40%;
+
 		}
 		.descrip-size {
 			width: 92%;
-			left: -15%;
+
 		}
 		.about-container .container-main {
         width: 60%;
@@ -3347,6 +3353,15 @@ fieldset, label { margin: 0; padding: 0; }
 		}
 }
 @media screen and (max-width:1290px) {
+		.remove-padding {
+				padding: 0;
+		}
+		.sort-by-collections h5 {
+			font-size: 0.8em;
+		}
+		.sort-by-collections span {
+			width: 100%;
+		}
     .about-container .container-main {
         width: 70%;
 				top: 15%;
@@ -3355,21 +3370,22 @@ fieldset, label { margin: 0; padding: 0; }
 			height: 260px;
 		}
 		.item-log {
-			margin-left: 22%;
+
 		}
 		.shirt-log {
-    	margin-left: -18%;
+
 		}
 		.cap-log {
-			margin-left: -20%;
+
 		}
 		.cloth-log {
-			width: 85%;
+			width: 95%;
 			left: 0;
+			margin-top: 13px;
 		}
 		.descrip-size {
-			width: 90%;
-			left: -14px;
+			width: 100%;
+
 		}
 		.about-content h1 {
 	        padding-bottom:0;
@@ -3438,18 +3454,18 @@ fieldset, label { margin: 0; padding: 0; }
 			margin-left: 10%;
 		}
 		.shirt-log {
-    	margin-left: 3%;
+
 		}
 		.cap-log {
-			margin-left: 1%;
+
 		}
 		.cloth-log {
 			width: 85%;
-			left: -10%;
+
 		}
 		.descrip-size {
 			width: 85%;
-			left: -10%;
+
 		}
 		.about-container header .logo-container {
         width:38%;
@@ -3496,7 +3512,7 @@ fieldset, label { margin: 0; padding: 0; }
 @media screen and (max-width:1024px) {
 		.cloth-log {
 			width: 85%;
-			left: 5%;
+
 		}
 		.descrip-size {
 			width: 85%;
@@ -3526,13 +3542,13 @@ fieldset, label { margin: 0; padding: 0; }
 			  padding: 65px 0 20px;
 		}
 		.item-log {
-				margin-left: 23%;
+
 		}
 		.shirt-log {
-    		margin-left: 15%;
+
 	}
 	.cap-log {
-    		margin-left: 13%;
+
 	}
 	.category-container header .logo-container {
 				width: 30%;
@@ -6545,7 +6561,7 @@ fieldset, label { margin: 0; padding: 0; }
 }
 .cat-quick-border {
 		width: 48%;
-		margin-left: 0;
+		margin-left: -15px;
 }
 .cat-quick-border select {
 		font-size: 0.68em;
@@ -8478,16 +8494,16 @@ header .nav-container nav ul li:hover span {
 		.shirt-log {
 				width: 50%;
 				margin-top: 3%;
-				margin-left: 32%;
+
 		}
 		.cap-log {
 				width: 50%;
-				margin-left: 28%;
+
 		}
 		.cloth-log {
 				width: 75%;
 				margin-top: 0;
-				left: 14%;
+
 		}
 		.descrip-size {
 				position: relative;
