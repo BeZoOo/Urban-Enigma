@@ -2287,7 +2287,18 @@ header .burger {
 		margin-top: 10px;
 
 }
-
+.first-cap {
+		margin-left: 10%;
+}
+.second-cap {
+		margin-left: -9%;
+}
+.first-shirt {
+		margin-left: 15%;
+}
+.second-shirt {
+		margin-right: -15%;
+}
 .cloth-log {
 		width: 90%;
 		margin-top: 25px;
@@ -2462,6 +2473,9 @@ header .burger {
 
 }
 /* Category Items */
+.cat-padding {
+		padding: 0 5px;
+}
 .category-items {
     padding-bottom:20px;
     color:#fff;
@@ -3259,7 +3273,7 @@ fieldset, label { margin: 0; padding: 0; }
 }
 @media screen and (max-width:1660px) {
 	.item-log {
-			margin-left: 30%;
+			margin-left: 32%;
 	}
 	.cap-log {
 
