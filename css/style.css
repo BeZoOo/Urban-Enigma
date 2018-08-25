@@ -2474,7 +2474,7 @@ header .burger {
 }
 /* Category Items */
 .cat-padding {
-		padding: 0 5px;
+		padding: 0 15px;
 }
 .category-items {
     padding-bottom:20px;
@@ -2644,10 +2644,11 @@ figcaption .captt {
     width:100%;
 		box-shadow: 3px 3px 2px #252525;
 		overflow: hidden;
+		height: 352px;
 }
 .cat-item {
     width:100%;
-    height:auto;
+    height:100%;
 }
 .in-cart-img {
 		position: relative;
