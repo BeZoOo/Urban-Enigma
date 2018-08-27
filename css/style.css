@@ -7422,6 +7422,9 @@ fieldset, label { margin: 0; padding: 0; }
 		.add-to-cart-container {
 				margin-top: 60px;
 		}
+		.sort-by-collections h5 {
+				font-size: 16px;
+		}
 }
 @media screen and (max-width:1660px){
 		.floating-cart-container {
