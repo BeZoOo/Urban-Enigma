@@ -2265,6 +2265,7 @@ header .burger {
 .item-log {
 		width:40%;
 		margin-top: 45px;
+		margin-left: 32%;
 }
 .item-log img {
 		width: 100%;
@@ -3279,6 +3280,7 @@ fieldset, label { margin: 0; padding: 0; }
     height:auto;
     margin-top:-50px;
 }
+
 @media screen and (max-width:1660px) {
 	.item-log {
 			margin-left: 32%;
@@ -7257,7 +7259,6 @@ fieldset, label { margin: 0; padding: 0; }
 		position: relative;
 		left: auto;
 		margin-top: 2%;
-		border-bottom: 1px solid #898989;
 		width: 60%;
 		margin-left: 19.7%;
 }
@@ -7387,16 +7388,41 @@ fieldset, label { margin: 0; padding: 0; }
 /* Genral Query */
 @media screen and (max-width:1920px) and (min-width:1661) {
     .about-container {
-			height: 1100px;
+				height: 1100px;
 		}
 		.puzzle-new {
-			bottom: 140%;
+				bottom: 140%;
 		}
 		.scroll-bg {
-			height: 290px;
+				height: 290px;
 		}
 }
-
+@media screen and (min-width:1661px) {
+		.main-cont {
+				margin-top: 5%;
+				margin-bottom: 2%;
+		}
+		.side {
+				margin-top: 5%;
+		}
+		.select-cat {
+				margin-top: 2%;
+		}
+		.cat-quick-border select {
+				font-size: 0.9em;
+		}
+		.back-bag {
+				right: 47%;
+				top: -3px;
+		}
+		.next-bag {
+			top: -6px;
+			right: 2.8%;
+		}
+		.add-to-cart-container {
+				margin-top: 60px;
+		}
+}
 @media screen and (max-width:1660px){
 		.floating-cart-container {
 			margin-top: 30px;
