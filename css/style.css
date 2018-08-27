@@ -7263,6 +7263,14 @@ fieldset, label { margin: 0; padding: 0; }
 		margin-left: 19.7%;
 }
 
+.thumb-cont {
+		height: 100%;
+}
+
+.thumb-cont img {
+		height: 100%;
+}
+
 .widder {
 	top: 82%;
 }
@@ -7301,7 +7309,6 @@ fieldset, label { margin: 0; padding: 0; }
 		width: 50px;
 		position: relative;
 		top: 4px;
-		opacity: 0.3;
 }
 .thumb-indicators li.active {
 		background-color: transparent;
@@ -7310,7 +7317,8 @@ fieldset, label { margin: 0; padding: 0; }
 		border-radius: 0;
 		height: 50px;
 		width: 50px;
-		opacity: 1;
+		border: 1px solid #fff;
+		padding: 2px;
 }
 .thumb-indicators li:first-of-type {
 		right: 18%;
@@ -8949,12 +8957,16 @@ header .nav-container nav ul li:hover span {
 
 .cat-carousel > .item,
 .cat-carousel > .active {
-	height: 70vh;
+		height: 70vh;
 }
 
 .thumb-cat > .item,
 .thumb-cat > .active {
-	height: auto;
+		height: auto;
+}
+.thumb-cat>.item {
+		-webkit-transition: .4s all ease-in-out;
+		transition: .4s all ease-in-out;
 }
 
 .cat-carousel >
