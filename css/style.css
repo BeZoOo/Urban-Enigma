@@ -2509,6 +2509,7 @@ figcaption .captt {
 	cursor: pointer;
 	transform: scale(1.0);
 	transition: 0.2s all ease-in-out;
+	height: 30px;
 }
 
 .cat-size li:hover {
@@ -2557,6 +2558,7 @@ figcaption .captt {
 .xxxlarge-img img,
 .xxxxlarge-img img {
 	width: 100%;
+	height: 100%;
 }
 
 .car-cont {
@@ -2706,7 +2708,7 @@ figcaption .captt {
 .add-to-cart-container {
     display:flex;
     -webkit-display:flex;
-    margin-top: 32px;
+    margin-top: 45px;
 }
 .add-to-cart-container input {
     font-size:10px;
@@ -7309,6 +7311,11 @@ fieldset, label { margin: 0; padding: 0; }
 		width: 50px;
 		position: relative;
 		top: 4px;
+		border: 1px solid #333;
+		padding: 3px;
+}
+.thumb-indicators li:hover {
+		border: 1px solid #fff;
 }
 .thumb-indicators li.active {
 		background-color: transparent;
@@ -7318,7 +7325,7 @@ fieldset, label { margin: 0; padding: 0; }
 		height: 50px;
 		width: 50px;
 		border: 1px solid #fff;
-		padding: 2px;
+		padding: 3px;
 }
 .thumb-indicators li:first-of-type {
 		right: 18%;
