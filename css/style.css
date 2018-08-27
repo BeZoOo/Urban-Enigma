@@ -2255,6 +2255,9 @@ header .burger {
 /************************************************/
 /******************* CATEGORY *******************/
 /************************************************/
+.main-cat {
+  padding-right: 20px;
+}
 .main-cont {
 	margin-top: 3%;
 }
@@ -2474,7 +2477,13 @@ header .burger {
 }
 /* Category Items */
 .cat-padding {
-		padding: 0 8px;
+		padding: 0 10px;
+}
+.cat-padding-left {
+    padding-left: 20px;
+}
+.cat-padding-right {
+    padding-right: 20px;
 }
 .category-items {
     padding-bottom:20px;
@@ -7311,11 +7320,11 @@ fieldset, label { margin: 0; padding: 0; }
 		width: 50px;
 		position: relative;
 		top: 4px;
-		border: 2px solid #333;
+		border: 1px solid #333;
 		padding: 3px;
 }
 .thumb-indicators li:hover {
-		border: 2px solid #fff;
+		border: 1px solid #fff;
 }
 .thumb-indicators li.active {
 		background-color: transparent;
@@ -7324,7 +7333,7 @@ fieldset, label { margin: 0; padding: 0; }
 		border-radius: 0;
 		height: 50px;
 		width: 50px;
-		border: 2px solid #fff;
+		border: 1px solid #fff;
 		padding: 3px;
 }
 .thumb-indicators li:first-of-type {
