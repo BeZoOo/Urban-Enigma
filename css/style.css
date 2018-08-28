@@ -2439,7 +2439,7 @@ header .burger {
     display:flex;
     -webkit-display:flex;
     align-items:center;
-    margin:50px 0 20px;
+    margin: 25px 0 20px;
     padding-bottom:20px;
     border-bottom:1px solid #aaa;
 }
@@ -3312,7 +3312,7 @@ fieldset, label { margin: 0; padding: 0; }
 			height: 395px;
 	}
 	figcaption .captt {
-			font-size: 18px;
+			font-size: 25px;
 	}
 	.about-container {
       padding-bottom:0;
