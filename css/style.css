@@ -7449,6 +7449,9 @@ fieldset, label { margin: 0; padding: 0; }
 		.sort-by-collections h5 {
 				font-size: 16px;
 		}
+		.cat-padding {
+				padding: 0 25px;
+		}
 		.category-items .fig-image-bg {
 				height: 500px
 		}
