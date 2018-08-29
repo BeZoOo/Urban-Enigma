@@ -7425,12 +7425,17 @@ fieldset, label { margin: 0; padding: 0; }
 		.main-cont {
 				margin-top: 5%;
 				margin-bottom: 2%;
+				position: relative;
 		}
 		.side {
-				margin-top: 5%;
+				width: 20%;
+				margin-top: 8%;
+				position: absolute;
+				left: 2%;
 		}
 		.main-cat {
 				padding: 0 45px 0 190px;
+				margin-left: 16.6666666666667%;
 		}
 		.select-cat {
 				margin-top: 2%;
