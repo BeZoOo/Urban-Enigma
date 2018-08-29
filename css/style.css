@@ -1995,7 +1995,7 @@ footer .sitemap-mobile .shipping-container input {
 }
 .footer-inner-page .scroll-bg {
     position:relative;
-    margin-top: -66px;
+    margin-top: -55px;
     z-index:99999999;
     pointer-events:none;
 }
