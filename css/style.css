@@ -7429,6 +7429,9 @@ fieldset, label { margin: 0; padding: 0; }
 		.side {
 				margin-top: 5%;
 		}
+		.main-cat {
+				padding: 0 45px 0 190px;
+		}
 		.select-cat {
 				margin-top: 2%;
 		}
@@ -7450,7 +7453,7 @@ fieldset, label { margin: 0; padding: 0; }
 				font-size: 16px;
 		}
 		.cat-padding {
-				padding: 0 55px;
+				padding: 0 24px;
 		}
 		.category-items .fig-image-bg {
 				height: 420px
