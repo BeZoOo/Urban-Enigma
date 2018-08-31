@@ -9008,7 +9008,7 @@ header .nav-container nav ul li:hover span {
     transition-property: opacity;
     opacity: 0;
 }
-.carousel-inner>.item.active {
+.carousel-inner>.item.active, .carousel-inner>.item.next.left, .carousel-inner>.item.prev.right {
 		opacity: 1;
 }
 .cat-carousel >
