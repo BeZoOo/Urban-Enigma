@@ -8997,10 +8997,16 @@ header .nav-container nav ul li:hover span {
 .thumb-cat > .item,
 .thumb-cat > .active {
 		height: auto;
+		opacity: 1;
 }
 .thumb-cat>.item {
-		-webkit-transition: 0s all ease-in-out;
-		transition: 0s all ease-in-out;
+		-webkit-transition: 0.3s all ease-in-out;
+		transition: 0.3s all ease-in-out;
+		-webkit-transition-property:opacity;
+		-moz-transition-property:opacity;
+		-o-transition-property:opacity;
+    transition-property: opacity;
+    opacity: 0;
 }
 .cat-carousel >
 .active:hover {
