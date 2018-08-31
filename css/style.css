@@ -8999,10 +8999,9 @@ header .nav-container nav ul li:hover span {
 		height: auto;
 }
 .thumb-cat>.item {
-		-webkit-transition: .4s all ease-in-out;
-		transition: .4s all ease-in-out;
+		-webkit-transition: 0s all ease-in-out;
+		transition: 0s all ease-in-out;
 }
-
 .cat-carousel >
 .active:hover {
 	transform: scale(1.0);
