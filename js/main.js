@@ -519,12 +519,36 @@ $(document).ready(function(){
         $(this).addClass('click-pop');
     });
 
-    // Close in-cart
+    // In-cart increment and decrement function
+    $(".button-cart").on("click", function() {
 
-    $('.x-close').click(function () {
-        $(this).parent().removeClass('in-cart-show');
-        $('.add-cart').removeClass('click-pop');
+      var $button = $(this);
+      var oldValue = $button.parent().find("input").val();
+
+      if ($button.text() == "+") {
+    	  var newVal = parseFloat(oldValue) + 1;
+    	} else {
+       // Don't allow decrementing below zero
+        if (oldValue > 0) {
+          var newVal = parseFloat(oldValue) - 1;
+        } else {
+          newVal = 0;
+        }
+      }
+
+      $button.parent().find("input").val(newVal);
+
     });
+
+    $(function() {
+      $('#basket, #cart-screen').hover(function() {
+        $('#cart-screen').css({'z-index': '99999', 'opacity': 1, 'transition': '0.5s all ease-in-out', 'top': '2.5%',});
+      }, function() {
+        // on mouseout, reset the background colour
+        $('#cart-screen').css({'z-index': '-1', 'opacity': 0, 'top': '6%'});
+      });
+    });
+
 
     //  Item select
 
