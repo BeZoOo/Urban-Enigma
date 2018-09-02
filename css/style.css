@@ -7640,15 +7640,6 @@ fieldset, label { margin: 0; padding: 0; }
 		.about-content p {
 			font-size: 1em;
 		}
-		.addtocart-screen {
-			right: 17%;
-		}
-		.cart-buttons-cont {
-			width: 70%;
-		}
-		.incart-item-price {
-			margin-top: 15%;
-		}
 
 }
 
@@ -7664,6 +7655,15 @@ fieldset, label { margin: 0; padding: 0; }
 		}
 		.about-content p {
 			font-size: 0.75em;
+		}
+		.addtocart-screen {
+			right: 17%;
+		}
+		.cart-buttons-cont {
+			width: 70%;
+		}
+		.incart-item-price {
+			margin-top: 15%;
 		}
 }
 
