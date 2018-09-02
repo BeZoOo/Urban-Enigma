@@ -7616,6 +7616,15 @@ fieldset, label { margin: 0; padding: 0; }
 		figcaption .captt {
 				font-size: 30px;
 		}
+		.addtocart-screen {
+			right: 15%;
+		}
+		.cart-buttons-cont {
+			width: 59.3%;
+		}
+		.incart-item-price {
+			margin-top: 14%;
+		}
 }
 @media screen and (max-width:1660px){
 		.floating-cart-container {
