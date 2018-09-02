@@ -2276,7 +2276,7 @@ header .burger {
 	opacity: 0;
 	position: absolute;
 	top: 6%;
-	right: 17%;
+	right: 15%;
 	min-height: 200px;
 	width: 30%;
 	max-width: 30%;
@@ -2336,7 +2336,7 @@ header .burger {
 	margin-top: 6%;
 }
 .cart-buttons-cont {
-	width: 70%;
+	width: 59.3%;
 	border: 1px solid #333;
 	height: 21px;
 	font-size: 14px;
@@ -2376,7 +2376,7 @@ header .burger {
 }
 .incart-item-price {
 	color: #fff;
-	margin-top: 15%;
+	margin-top: 14%;
 	margin-left: 11%;
 }
 .checkout-subtotal hr {
@@ -7566,15 +7566,6 @@ fieldset, label { margin: 0; padding: 0; }
 		.scroll-bg {
 				height: 290px;
 		}
-		.addtocart-screen {
-			right: 15%;
-		}
-		.cart-buttons-cont {
-			width: 59.3%;
-		}
-		.incart-item-price {
-			margin-top: 14%;
-		}
 }
 @media screen and (min-width:1661px) {
 		.main-cont {
@@ -7625,15 +7616,6 @@ fieldset, label { margin: 0; padding: 0; }
 		figcaption .captt {
 				font-size: 30px;
 		}
-		.addtocart-screen {
-			right: 15%;
-		}
-		.cart-buttons-cont {
-			width: 59.3%;
-		}
-		.incart-item-price {
-			margin-top: 14%;
-		}
 }
 @media screen and (max-width:1660px){
 		.floating-cart-container {
@@ -7657,6 +7639,15 @@ fieldset, label { margin: 0; padding: 0; }
 
 		.about-content p {
 			font-size: 1em;
+		}
+		.addtocart-screen {
+			right: 17%;
+		}
+		.cart-buttons-cont {
+			width: 70%;
+		}
+		.incart-item-price {
+			margin-top: 15%;
 		}
 
 }
