@@ -544,7 +544,7 @@ $(document).ready(function(){
     });
 
     $(function() {
-      $('#basket, #cart-screen').hover(function() {
+      $('#basket').hover(function() {
         $('#cart-screen').css({'z-index': '99999', 'opacity': 1, 'transition': '0.5s all ease-in-out', 'top': '2.5%',});
       }, function() {
         // on mouseout, reset the background colour
