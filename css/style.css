@@ -2309,9 +2309,15 @@ header .burger {
 	width: 100%;
 	height: 100%;
 }
-.cart-shiping{
-	width: 30%;
+.cart-shiping {
+	width: 45%;
 	margin-top: 4%;
+}
+.close-cart-shiping {
+	width: 45%;
+  margin-top: 25%;
+  float: right;
+	cursor: pointer;
 }
 .addtocart-screen hr {
 	width: 86%;

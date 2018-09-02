@@ -515,8 +515,11 @@ $(document).ready(function(){
     // Add in-cart
 
     $('.add-cart').click(function () {
-        $(this).next().addClass('in-cart-show');
-        $(this).addClass('click-pop');
+        $('#cart-screen').css({'z-index': '99999', 'opacity': 1, 'transition': '0.5s all ease-in-out', 'top': '2.5%',});
+    });
+
+    $('.close-cart-shiping').click(function () {
+        $('#cart-screen').css({'z-index': '-1', 'opacity': 0, 'top': '6%'});
     });
 
     // In-cart increment and decrement function
@@ -545,7 +548,7 @@ $(document).ready(function(){
         $('#cart-screen').css({'z-index': '99999', 'opacity': 1, 'transition': '0.5s all ease-in-out', 'top': '2.5%',});
       }, function() {
         // on mouseout, reset the background colour
-        $('#cart-screen').css({'z-index': '-1', 'opacity': 0, 'top': '6%'});
+        // $('#cart-screen').css({'z-index': '-1', 'opacity': 0, 'top': '6%'});
       });
     });
 
