@@ -516,6 +516,7 @@ $(document).ready(function(){
 
     $('.add-cart').click(function () {
         $('#cart-screen').css({'z-index': '99999', 'opacity': 1, 'transition': '0.5s all ease-in-out', 'top': '2.5%',});
+        $(this).addClass('click-pop');
     });
 
     $('.close-cart-shiping').click(function () {
