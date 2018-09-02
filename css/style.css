@@ -7556,7 +7556,7 @@ fieldset, label { margin: 0; padding: 0; }
 }
 
 /* Genral Query */
-@media screen and (max-width:1920px) and (min-width:1661) {
+@media screen and (max-width:1980px) and (min-width:1661) {
     .about-container {
 				height: 1100px;
 		}
@@ -7565,6 +7565,15 @@ fieldset, label { margin: 0; padding: 0; }
 		}
 		.scroll-bg {
 				height: 290px;
+		}
+		.addtocart-screen {
+			right: 15%;
+		}
+		.cart-buttons-cont {
+			width: 59.3%;
+		}
+		.incart-item-price {
+			margin-top: 14%;
 		}
 }
 @media screen and (min-width:1661px) {
