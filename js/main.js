@@ -521,6 +521,7 @@ $(document).ready(function(){
 
     $('.close-cart-shiping').click(function () {
         $('#cart-screen').css({'z-index': '-1', 'opacity': 0, 'top': '6%'});
+        $('.add-cart').removeClass('click-pop');
     });
 
     // In-cart increment and decrement function
