@@ -7640,7 +7640,6 @@ fieldset, label { margin: 0; padding: 0; }
 		.about-content p {
 			font-size: 1em;
 		}
-
 }
 
 @media screen and (max-width:1370px){
@@ -7697,6 +7696,12 @@ fieldset, label { margin: 0; padding: 0; }
 		}
 		.thumb-indicators li:last-of-type {
 			left: 15%;
+		}
+		.addtocart-screen {
+			right: 19%;
+		}
+		.cart-buttons-cont {
+			width: 73%;
 		}
 }
 
