@@ -2808,7 +2808,7 @@ figcaption .captt {
 .item-info {
 	font-family: 'MyriadPro-BoldCond';
 	text-align: center;
-	margin-top: 35%;
+	margin-top: 65%;
 }
 .item-info h4 {
 	margin-bottom: 3%;
@@ -7653,6 +7653,10 @@ fieldset, label { margin: 0; padding: 0; }
 		figcaption .captt {
 				font-size: 30px;
 		}
+		.cat-pagin {
+			right: 13%;
+			top: 2px;
+		}
 }
 @media screen and (max-width:1660px){
 		.floating-cart-container {
@@ -7677,10 +7681,21 @@ fieldset, label { margin: 0; padding: 0; }
 		.about-content p {
 			font-size: 1em;
 		}
+		.side {
+			margin-top: 8%;
+		}
+		.cat-pagin {
+			right: 17%;
+		}
 }
 
 @media screen and (max-width:1370px){
-
+		.side {
+			margin-top: 12%;
+		}
+		.cat-pagin {
+			right: 15%;
+		}
 		.category-items .fig-image-bg {
 				height: 352px
 		}
