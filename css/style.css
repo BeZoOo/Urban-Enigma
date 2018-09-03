@@ -2307,7 +2307,7 @@ header .burger {
 	border-left: 13px solid transparent;
 }
 .fixed-header {
-	 height: 83px;
+	 height: 95px;
 	 position: absolute;
 	 width: 100%;
 	 background-color: #1c1d1d;
@@ -7700,6 +7700,9 @@ fieldset, label { margin: 0; padding: 0; }
 		}
 		.incart-item-price {
 			margin-top: 55%;
+		}
+		.fixed-header {
+			height: 83px;
 		}
 }
 
