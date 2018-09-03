@@ -2842,7 +2842,7 @@ figcaption .captt {
     width:100%;
 		box-shadow: 3px 3px 2px #252525;
 		overflow: hidden;
-		height: 352px;
+		height: 420px;
 }
 .cat-item {
     width:100%;
@@ -7681,7 +7681,10 @@ fieldset, label { margin: 0; padding: 0; }
 
 @media screen and (max-width:1370px){
 
-			.about-container {
+		.category-items .fig-image-bg {
+				height: 352px
+		}
+		.about-container {
 				height: 780px;
 			}
 
