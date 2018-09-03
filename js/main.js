@@ -515,11 +515,11 @@ $(document).ready(function(){
     // Add in-cart
 
     $('.add-cart').click(function () {
-        $('#cart-screen').css({'z-index': '99999', 'opacity': 1, 'transition': '0.5s all ease-in-out', 'top': '2.5%',});
+        $('#cart-screen').css({'z-index': '99999', 'opacity': 1, 'transition': '0.5s all ease-in-out', 'top': '1.7%',});
         $(this).addClass('click-pop');
     });
 
-    $('.close-cart-shiping').click(function () {
+    $('.close-cart-shiping, .main-cont').click(function () {
         $('#cart-screen').css({'z-index': '-1', 'opacity': 0, 'top': '6%'});
         $('.add-cart').removeClass('click-pop');
         $('body').css("overflow-y", "scroll");
@@ -548,7 +548,7 @@ $(document).ready(function(){
 
     $(function() {
       $('#basket').hover(function() {
-        $('#cart-screen').css({'z-index': '99999', 'opacity': 1, 'transition': '0.5s all ease-in-out', 'top': '2.5%',});
+        $('#cart-screen').css({'z-index': '99999', 'opacity': 1, 'transition': '0.5s all ease-in-out', 'top': '1.7%',});
         $('body').css("overflow", "hidden");
       }, function() {
         // on mouseout, reset the background colour
