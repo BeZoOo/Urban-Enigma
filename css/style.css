@@ -2312,6 +2312,7 @@ header .burger {
 	 width: 100%;
 	 background-color: #1c1d1d;
 	 z-index: 9999;
+	 border-radius: 10px;
 }
 .first-item-in {
 	 margin-top: 26%
