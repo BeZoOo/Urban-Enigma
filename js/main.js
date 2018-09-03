@@ -522,6 +522,7 @@ $(document).ready(function(){
     $('.close-cart-shiping').click(function () {
         $('#cart-screen').css({'z-index': '-1', 'opacity': 0, 'top': '6%'});
         $('.add-cart').removeClass('click-pop');
+        $('body').css("overflow-y", "scroll");
     });
 
     // In-cart increment and decrement function
@@ -548,6 +549,7 @@ $(document).ready(function(){
     $(function() {
       $('#basket').hover(function() {
         $('#cart-screen').css({'z-index': '99999', 'opacity': 1, 'transition': '0.5s all ease-in-out', 'top': '2.5%',});
+        $('body').css("overflow", "hidden");
       }, function() {
         // on mouseout, reset the background colour
         // $('#cart-screen').css({'z-index': '-1', 'opacity': 0, 'top': '6%'});
