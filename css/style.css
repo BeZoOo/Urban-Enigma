@@ -2278,7 +2278,7 @@ header .burger {
 	top: 6%;
 	right: 15%;
 	min-height: 200px;
-  height: 680px;
+  height: 610px;
 	width: 30%;
 	max-width: 30%;
 	z-index: 99999;
@@ -2291,7 +2291,7 @@ header .burger {
 	transition: 0.5s all ease-in-out;
 }
 .addtocart-screen-scroll {
-	max-height: 500px;
+	max-height: 450px;
 	overflow-y: scroll;
 	overflow-x: hidden;
 }
@@ -2330,6 +2330,11 @@ header .burger {
   margin-top: 25%;
   float: right;
 	cursor: pointer;
+	transition: 0.5s all ease-in-out;
+}
+.close-cart-shiping:hover {
+	background-color: #fff;
+	transition: 0.5s all ease-in-out;
 }
 .addtocart-screen hr {
 	width: 86%;
@@ -2395,10 +2400,17 @@ header .burger {
 	background-color: #333;
 	transition: 0.2s all ease-in-out;
 }
-.incart-item-price {
+.incart-item-price-x {
 	color: #fff;
-	margin-top: 14%;
 	margin-left: 11%;
+	text-align: right;
+}
+.incart-item-price-x h5 {
+	font-size: 11px;
+	cursor: pointer;
+}
+.incart-item-price {
+	margin-top: 55%;
 }
 .checkout-subtotal {
    position: absolute;
@@ -7687,7 +7699,7 @@ fieldset, label { margin: 0; padding: 0; }
 			width: 70%;
 		}
 		.incart-item-price {
-			margin-top: 15%;
+			margin-top: 55%;
 		}
 }
 
