@@ -7714,6 +7714,9 @@ fieldset, label { margin: 0; padding: 0; }
 		}
 }
 @media screen and (min-width:1661px) {
+		.item-succcess {
+			 height: auto;
+		}
 		.main-cont {
 				margin-top: 5%;
 				margin-bottom: 2%;
@@ -7768,6 +7771,9 @@ fieldset, label { margin: 0; padding: 0; }
 		}
 }
 @media screen and (max-width:1660px){
+		.item-succcess {
+			 height: auto;
+		}
 		.floating-cart-container {
 			margin-top: 30px;
 		}
@@ -7799,6 +7805,9 @@ fieldset, label { margin: 0; padding: 0; }
 }
 
 @media screen and (max-width:1370px){
+		.item-succcess {
+			 height: 400px;
+		}
 		.side {
 			margin-top: 12%;
 		}
