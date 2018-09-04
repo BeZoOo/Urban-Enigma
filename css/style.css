@@ -2281,7 +2281,7 @@ header .burger {
   height: 610px;
 	width: 30%;
 	max-width: 30%;
-	z-index: 99999;
+	z-index: -1;
 	background-color: #1C1D1D;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
