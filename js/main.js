@@ -514,9 +514,28 @@ $(document).ready(function(){
 
     // Add in-cart
 
-    $('.add-cart').click(function () {
-        $('#cart-screen').css({'z-index': '99999', 'opacity': 1, 'transition': '0.5s all ease-in-out', 'top': '1.7%',});
+    $('.car-cont').click(function () {
+        $('.pop-up-cat').css({'z-index': '99999999999', 'opacity': 1, 'transition': '0.3s all ease-in-out', 'top': '1%',});
+        $('.fixed-popup').css('z-index', '999999999998');
+        $('.popup-bg').css({'z-index': '999999999999', 'opacity': 0.3, 'transition': '0.3s all ease-in-out',});
         $(this).addClass('click-pop');
+    });
+
+    $('.close-popup, .popup-bg').click(function () {
+        $('.pop-up-cat').css({'z-index': '-2', 'opacity': 0, 'top': '10%'});
+        $('.fixed-popup').css('z-index', '-2');
+        $('.popup-bg').css({'z-index': '-2', 'opacity': 0});
+        $('.car-cont').removeClass('click-pop');
+    });
+
+    $(function() {
+      $('#basket').hover(function() {
+        $('#cart-screen').css({'z-index': '99999', 'opacity': 1, 'transition': '0.5s all ease-in-out', 'top': '1.7%',});
+        $('body').css("overflow", "hidden");
+      }, function() {
+        // on mouseout, reset the background colour
+        // $('#cart-screen').css({'z-index': '-1', 'opacity': 0, 'top': '6%'});
+      });
     });
 
     $('.close-cart-shiping, .main-cont').click(function () {
@@ -545,17 +564,6 @@ $(document).ready(function(){
       $button.parent().find("input").val(newVal);
 
     });
-
-    $(function() {
-      $('#basket').hover(function() {
-        $('#cart-screen').css({'z-index': '99999', 'opacity': 1, 'transition': '0.5s all ease-in-out', 'top': '1.7%',});
-        $('body').css("overflow", "hidden");
-      }, function() {
-        // on mouseout, reset the background colour
-        // $('#cart-screen').css({'z-index': '-1', 'opacity': 0, 'top': '6%'});
-      });
-    });
-
 
     //  Item select
 
@@ -594,4 +602,5 @@ $(document).ready(function(){
                 }
             }
     });
+
 });
