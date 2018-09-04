@@ -2464,6 +2464,7 @@ header .burger {
 	left: 0;
   z-index: -1;
 	background-color: #1c1d1d;
+	border-radius: 10px;
 	transition: 0.3s all ease-in-out;
 }
 .img-incart {
