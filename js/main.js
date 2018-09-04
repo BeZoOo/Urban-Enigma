@@ -515,7 +515,7 @@ $(document).ready(function(){
     // Add in-cart
 
     $('.car-cont').click(function () {
-        $('.pop-up-cat').css({'z-index': '99999999999', 'opacity': 1, 'transition': '0.3s all ease-in-out', 'top': '1%',});
+        $('.pop-up-cat').css({'z-index': '99999999999', 'opacity': 1, 'transition': '0.3s all ease-in-out', 'top': '-3%',});
         $('.fixed-popup').css('z-index', '999999999998');
         $('.popup-bg').css({'z-index': '999999999999', 'opacity': 0.3, 'transition': '0.3s all ease-in-out',});
         $(this).addClass('click-pop');
