@@ -2281,7 +2281,7 @@ header .burger {
   height: 610px;
 	width: 30%;
 	max-width: 30%;
-	z-index: 99999;
+	z-index: -1;
 	background-color: #1C1D1D;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
@@ -2437,6 +2437,115 @@ header .burger {
 }
 .checkout-img {
 	padding-left: 22px;
+}
+.popup-bg {
+	opacity: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -2;
+	background-color: #333;
+	transition: 0.3s all ease-in-out;
+}
+.fixed-popup {
+	position: fixed;
+  width: 50%;
+  height: 100%;
+  top: 9%;
+	left: 28%;
+  z-index: -2;
+}
+.pop-up-cat {
+	position: absolute;
+	opacity: 0;
+  top: 10%;
+	left: 0;
+  z-index: -1;
+	background-color: #1c1d1d;
+	border-radius: 10px;
+	transition: 0.3s all ease-in-out;
+}
+.img-incart {
+	padding: 0 25px;
+}
+.added-success-word {
+	text-align: center;
+	color: #fff;
+	margin-top: 10%;
+	margin-bottom: 7%;
+	font-size: 18px;
+}
+.incart-item-title,
+.incart-item-qty,
+.incart-item-total {
+	color: #fff;
+  font-size: 16px;
+  text-align: center;
+}
+.incart-item-title {
+	margin-top: 1%;
+}
+.incart-item-qty {
+	margin-top: 2%;
+}
+.incart-item-total {
+	margin-top: 3%;
+	margin-bottom: 16%;
+}
+.item-succcess {
+	height: 400px;
+}
+.allincart-items {
+	color: #ffff;
+	text-align: center;
+	margin-top: 50%;
+}
+.incartsub-total {
+  text-align:  center;
+  color:  #fff;
+  margin-top: 2%;
+  font-size: 20px;
+  font-weight: bold;
+}
+.continueshopping-incart,
+.view-cart-incart,
+.check-out-shipping-incart {
+	width: 80%;
+	margin: 0 auto;
+	transition: 0.2s all ease-in-out;
+}
+.check-out-shipping-incart {
+	margin-left: 10.3%;
+}
+.continueshopping-incart:hover,
+.view-cart-incart:hover {
+	background-color: #dc8028;
+	transition: 0.2s all ease-in-out;
+}
+.close-popup {
+	color: #fff;
+  position: absolute;
+  top: -4%;
+  right: -4%;
+  font-size: 25px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding: 2% 4% 2.5%;
+  background-color: #1c1d1d;
+	cursor: pointer;
+	z-index: 99999999;
+	transition: 0.4s all ease-in-out;
+}
+.close-popup:hover {
+	color: #1c1d1d;
+	background-color: #fff;
+	transition: 0.4s all ease-in-out;
+}
+.pop-up-cat img {
+	width: 100%;
+  height: 100%;
 }
 .main-cat {
   padding-right: 30px;
@@ -2808,7 +2917,7 @@ figcaption .captt {
 .item-info {
 	font-family: 'MyriadPro-BoldCond';
 	text-align: center;
-	margin-top: 35%;
+	margin-top: 65%;
 }
 .item-info h4 {
 	margin-bottom: 3%;
@@ -7605,6 +7714,9 @@ fieldset, label { margin: 0; padding: 0; }
 		}
 }
 @media screen and (min-width:1661px) {
+		.item-succcess {
+			 height: auto;
+		}
 		.main-cont {
 				margin-top: 5%;
 				margin-bottom: 2%;
@@ -7659,6 +7771,9 @@ fieldset, label { margin: 0; padding: 0; }
 		}
 }
 @media screen and (max-width:1660px){
+		.item-succcess {
+			 height: auto;
+		}
 		.floating-cart-container {
 			margin-top: 30px;
 		}
@@ -7690,6 +7805,11 @@ fieldset, label { margin: 0; padding: 0; }
 }
 
 @media screen and (max-width:1370px){
+		.item-succcess {
+			width: 85%;
+	    height: 340px;
+	    margin: 0 auto;
+		}
 		.side {
 			margin-top: 12%;
 		}
@@ -7725,6 +7845,11 @@ fieldset, label { margin: 0; padding: 0; }
 }
 
 @media screen and (max-width:1285px){
+		.item-succcess {
+			width: 100%;
+			height: 400px;
+			margin: 0 auto;
+		}
 		.puzzle-new {
 			bottom: 100%;
 			left: 114%
