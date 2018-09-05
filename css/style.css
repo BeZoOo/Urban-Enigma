@@ -7817,6 +7817,7 @@ fieldset, label { margin: 0; padding: 0; }
 		}
 		.arrows-pagin {
 			right: 2%;
+			top: 38%;
 		}
 }
 
@@ -7829,6 +7830,7 @@ fieldset, label { margin: 0; padding: 0; }
 		}
 		.arrows-pagin {
 			right: 0;
+			top: 30%;
 		}
 		.category-view-mode {
 			margin-bottom: 20px;
