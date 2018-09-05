@@ -7771,6 +7771,12 @@ fieldset, label { margin: 0; padding: 0; }
 		}
 }
 @media screen and (max-width:1660px){
+		.main-cont {
+		    margin-top: 2.8%;
+		}
+		.thumb-indicators {
+			margin-top: -1%;
+		}
 		.item-succcess {
 			 height: auto;
 		}
@@ -7802,9 +7808,35 @@ fieldset, label { margin: 0; padding: 0; }
 		.cat-pagin {
 			right: 17%;
 		}
+		.category-view-mode {
+			margin-bottom: 8px;
+			margin-top: 8px;
+		}
+		.select-cat {
+			margin-left: 6%;
+		}
+		.arrows-pagin {
+			right: 2%;
+		}
 }
 
 @media screen and (max-width:1370px){
+		.main-cont {
+				margin-top: 3%;
+		}
+		.thumb-indicators {
+			margin-top: 2%;
+		}
+		.arrows-pagin {
+			right: 0;
+		}
+		.category-view-mode {
+			margin-bottom: 20px;
+			margin-top: 25px;
+		}
+		.select-cat {
+			margin-left: 0;
+		}
 		.item-succcess {
 			width: 85%;
 	    height: 340px;
