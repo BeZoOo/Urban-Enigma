@@ -7811,6 +7811,12 @@ fieldset, label { margin: 0; padding: 0; }
 		.category-view-mode {
 			margin-bottom: 2px;
 		}
+		.select-cat {
+			margin-left: 6%;
+		}
+		.arrows-pagin {
+			right: 2%;
+		}
 }
 
 @media screen and (max-width:1370px){
@@ -7820,8 +7826,14 @@ fieldset, label { margin: 0; padding: 0; }
 		.thumb-indicators {
 			margin-top: 2%;
 		}
+		.arrows-pagin {
+			right: 0;
+		}
 		.category-view-mode {
 			margin-bottom: 20px;
+		}
+		.select-cat {
+			margin-left: 0;
 		}
 		.item-succcess {
 			width: 85%;
