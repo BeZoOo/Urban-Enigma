@@ -8952,6 +8952,7 @@ header .nav-container nav ul li:hover span {
 		}
 		.select-cat {
 				margin-top: 5%;
+				width: 55%;
 		}
 		.select-cat .quick-selection h3 {
 				margin-top: 4%;
@@ -9081,6 +9082,7 @@ header .nav-container nav ul li:hover span {
 		}
 		.category-view-mode {
 				margin: 30px 0 20px;
+				width: 100%;
 		}
 		.x-close {
 				background-color: #fff;
@@ -9100,6 +9102,54 @@ header .nav-container nav ul li:hover span {
 		{
 				width: 0px;
 		}
+		.category-items .fig-image-bg {
+			height: auto;
+		}
+		.thumb-indicators {
+			left: 20%;
+		}
+		.thumb-indicators li:first-of-type {
+			right: 4%;
+		}
+		.thumb-indicators li {
+				height: 30px;
+				width: 30px;
+		}
+		.thumb-indicators li.active {
+				height: 30px;
+				width: 30px;
+		}
+		.price-fig {
+	    margin-top: 2px;
+	    font-size: 0.8em;
+	}
+	.main-pagin {
+			height: 50px;
+	}
+	.description-options .quick-border{
+			width: 55%;
+	}
+	.cat-quick-border select {
+		height: 20px;
+	}
+	.select-cat .quick-selection h3 {
+    font-size: 0.5em;
+    margin-right: -1%;
+	}
+	.side {
+		margin-top: 0;
+	}
+	.shirt-log,
+	.cap-log {
+		width: 100%;
+	}
+	.cloth-log {
+		width: 95%;
+		left: 5%;
+	}
+	.descrip-size {
+		left: 7%;
+	}
 }
 
 @media only screen and (max-width: 768px) and (min-width: 500px) {
@@ -9335,7 +9385,7 @@ header .nav-container nav ul li:hover span {
 			margin-bottom: 90%;
 	}
 	.select-cat .quick-selection h3 {
-			font-size : 0.7em;
+			font-size : 0.5em;
 	}
 	.cat-quick-border select {
 			font-size: 0.5em;
