@@ -7771,6 +7771,9 @@ fieldset, label { margin: 0; padding: 0; }
 		}
 }
 @media screen and (max-width:1660px){
+		.main-cont {
+		    margin-top: 1%;
+		}
 		.item-succcess {
 			 height: auto;
 		}
@@ -7802,9 +7805,18 @@ fieldset, label { margin: 0; padding: 0; }
 		.cat-pagin {
 			right: 17%;
 		}
+		.category-view-mode {
+			margin-bottom: 2px;
+		}
 }
 
 @media screen and (max-width:1370px){
+		.main-cont {
+				margin-top: 3%;
+		}
+		.category-view-mode {
+			margin-bottom: 20px;
+		}
 		.item-succcess {
 			width: 85%;
 	    height: 340px;
