@@ -7774,6 +7774,9 @@ fieldset, label { margin: 0; padding: 0; }
 		.main-cont {
 		    margin-top: 2.5%;
 		}
+		.thumb-indicators {
+			margin-top: -1%;
+		}
 		.item-succcess {
 			 height: auto;
 		}
@@ -7813,6 +7816,9 @@ fieldset, label { margin: 0; padding: 0; }
 @media screen and (max-width:1370px){
 		.main-cont {
 				margin-top: 3%;
+		}
+		.thumb-indicators {
+			margin-top: 2%;
 		}
 		.category-view-mode {
 			margin-bottom: 20px;
