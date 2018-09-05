@@ -7809,7 +7809,8 @@ fieldset, label { margin: 0; padding: 0; }
 			right: 17%;
 		}
 		.category-view-mode {
-			margin-bottom: 2px;
+			margin-bottom: 8px;
+			margin-top: 8px;
 		}
 		.select-cat {
 			margin-left: 6%;
@@ -7831,6 +7832,7 @@ fieldset, label { margin: 0; padding: 0; }
 		}
 		.category-view-mode {
 			margin-bottom: 20px;
+			margin-top: 25px;
 		}
 		.select-cat {
 			margin-left: 0;
