@@ -3727,8 +3727,12 @@ fieldset, label { margin: 0; padding: 0; }
         font-size:14px;
     }
 		.back-bag {
-			right: 61%;
-			top: 4px;
+			right: 53%;
+			top: -1px;
+		}
+		.next-bag {
+			top: -2.3px;
+			right: 3%;
 		}
 }
 @media screen and (max-width:1250px) {
@@ -7733,18 +7737,22 @@ fieldset, label { margin: 0; padding: 0; }
 				margin-left: 16.6666666666667%;
 		}
 		.select-cat {
-				margin-top: 2%;
+				margin-top: 1.5%;
+				margin-left: 22%;
+		}
+		.arrows-pagin {
+			top: 25%;
 		}
 		.cat-quick-border select {
 				font-size: 0.9em;
 		}
 		.back-bag {
-				right: 47%;
-				top: -3px;
+				right: 42%;
+				top: -10px;
 		}
 		.next-bag {
-				top: -6px;
-				right: 2.8%;
+				top: -13px;
+				right: 1%;
 		}
 		.thumb-indicators {
 				margin-top: 0;
