@@ -7772,8 +7772,20 @@ fieldset, label { margin: 0; padding: 0; }
 			right: 13%;
 			top: 2px;
 		}
+		.thumb-indicators li.active {
+			border: 2px solid #fff;
+		}
+		.thumb-indicators li {
+			border: 2px solid #333;
+		}
 }
 @media screen and (max-width:1660px){
+		.thumb-indicators li.active {
+			border: 2px solid #fff;
+		}
+		.thumb-indicators li {
+			border: 2px solid #333;
+		}
 		.main-cont {
 		    margin-top: 3.4%;
 		}
@@ -7791,12 +7803,12 @@ fieldset, label { margin: 0; padding: 0; }
 				margin-left: 3%;
 		}
 		.next-bag {
-			top: 0.5px;
+			top: 0px;
 			right: 6.2%;
 		}
 		.back-bag {
 			top: 1px;
-			right: 59%;
+			right: 58%;
 		}
 		.cat-quick-border {
 			margin-top: -5%;
