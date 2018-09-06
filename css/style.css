@@ -3592,10 +3592,10 @@ fieldset, label { margin: 0; padding: 0; }
 
 	}
 	.shirt-log {
-
+		margin-top: 20%;
 	}
 	.cloth-log {
-
+		margin-top: 12%;
 	}
 	.descrip-size {
 
@@ -3677,6 +3677,12 @@ fieldset, label { margin: 0; padding: 0; }
 		}
 		.cart-in {
 				width: 115%;
+		}
+		.cloth-log {
+			margin-top: 3%;
+		}
+		.shirt-log {
+			margin-top: 0;
 		}
 }
 @media screen and (max-width:1290px) {
