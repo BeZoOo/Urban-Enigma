@@ -7791,12 +7791,12 @@ fieldset, label { margin: 0; padding: 0; }
 				margin-left: 3%;
 		}
 		.next-bag {
-			top: 1px;
+			top: 0.5px;
 			right: 6.2%;
 		}
 		.back-bag {
 			top: 1px;
-			right: 60.5%;
+			right: 59%;
 		}
 		.cat-quick-border {
 			margin-top: -5%;
@@ -7897,6 +7897,9 @@ fieldset, label { margin: 0; padding: 0; }
 		}
 		.back-bag {
 			top: 3px;
+		}
+		.next-bag {
+			top: 1px;
 		}
 }
 
