@@ -2733,7 +2733,7 @@ header .burger {
     align-items:center;
     margin: 25px 0 20px;
     padding-bottom:20px;
-    border-bottom:1px solid #aaa;
+    border-bottom:2px solid #aaa;
 }
 .mode-cat {
 		border-bottom: none;
@@ -3030,8 +3030,8 @@ figcaption .captt {
 /* Category Pagination */
 .pagin {
 	padding: 0;
-	width: 100%;
-	margin-left: 0;
+	width: 75%;
+	margin-left: 25.2%;
 }
 .cat-pagination {
     margin:50px 0;
@@ -3078,14 +3078,14 @@ figcaption .captt {
 .next-bag {
 	width: 13%;
 	position: absolute;
-  top: -4.3px;
+  top: 3px;
 	right: 4.8%;
 }
 .back-bag {
 	width: 11%;
 	position: absolute;
-	right: 49%;
-	top: -2px;
+	right: 60.5%;
+	top: 4px;
 }
 .back-bag img,
 .next-bag img {
@@ -3727,12 +3727,8 @@ fieldset, label { margin: 0; padding: 0; }
         font-size:14px;
     }
 		.back-bag {
-			right: 53%;
-			top: -1px;
-		}
-		.next-bag {
-			top: -2.3px;
-			right: 3%;
+			right: 61%;
+			top: 4px;
 		}
 }
 @media screen and (max-width:1250px) {
@@ -7737,22 +7733,18 @@ fieldset, label { margin: 0; padding: 0; }
 				margin-left: 16.6666666666667%;
 		}
 		.select-cat {
-				margin-top: 1.5%;
-				margin-left: 22%;
-		}
-		.arrows-pagin {
-			top: 25%;
+				margin-top: 2%;
 		}
 		.cat-quick-border select {
 				font-size: 0.9em;
 		}
 		.back-bag {
-				right: 42%;
-				top: -10px;
+				right: 47%;
+				top: -3px;
 		}
 		.next-bag {
-				top: -13px;
-				right: 1%;
+				top: -6px;
+				right: 2.8%;
 		}
 		.thumb-indicators {
 				margin-top: 0;
@@ -7838,15 +7830,14 @@ fieldset, label { margin: 0; padding: 0; }
 		}
 		.arrows-pagin {
 			right: 0;
-			top: 28%;
+			top: 30%;
 		}
 		.category-view-mode {
 			margin-bottom: 20px;
 			margin-top: 25px;
 		}
 		.select-cat {
-			margin-left: 27%;
-			margin-top: 2%;
+			margin-left: 0;
 		}
 		.item-succcess {
 			width: 85%;
