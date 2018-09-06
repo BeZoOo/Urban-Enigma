@@ -7790,6 +7790,14 @@ fieldset, label { margin: 0; padding: 0; }
 				margin-top: 4%;
 				margin-left: 3%;
 		}
+		.next-bag {
+			top: 1px;
+			right: 6.2%;
+		}
+		.back-bag {
+			top: 1px;
+			right: 60.5%;
+		}
 		.cat-quick-border {
 			margin-top: -5%;
 		}
@@ -7886,6 +7894,9 @@ fieldset, label { margin: 0; padding: 0; }
 		}
 		.fixed-header {
 			height: 83px;
+		}
+		.back-bag {
+			top: 3px;
 		}
 }
 
