@@ -7712,16 +7712,16 @@ fieldset, label { margin: 0; padding: 0; }
 	margin-bottom: 45vh;
 }
 .carousel-inner > .f-item {
-	height: 247px;
+	height: 210px;
 }
 .carousel-inner > .s-item {
-	height: 320px;
+	height: 280px;
 }
 .carousel-inner > .th-item {
-	height: 320px;
+	height: 280px;
 }
 .carousel-inner > .fo-item {
-	height: 247px;
+	height: 210px;
 }
 .fo-item-margin {
 	margin-top: -7.5%;
@@ -7758,19 +7758,19 @@ fieldset, label { margin: 0; padding: 0; }
 			margin-bottom: 15vh;
 		}
 		.f-carousle {
-			top: 82%;
+			top: 80%;
 		}
 		.s-carousle {
-    	top: 85%;
+    	top: 84%;
 		}
 		.th-carousle {
-    	top: 85%;
+    	top: 84%;
 		}
 		.fo-carousle {
-    	top: 82%;
+    	top: 80%;
 		}
 		.bracket {
-    	height: 79vh;
+    	height: 70vh;
 		}
 		.fo-item-margin {
 			margin-top: -7%;
