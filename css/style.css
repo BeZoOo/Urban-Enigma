@@ -9265,13 +9265,13 @@ header .nav-container nav ul li:hover span {
 		margin-top: 7px;
 	}
 	.fixed-popup {
-		width: 80%;
+		width: 90%;
 		height: 100%;
 		top: 9%;
-		left: 13%;
+		left: 5%;
 	}
 	.item-succcess {
-		height: 145px;
+		height: 190px;
 	}
 	.added-success-word {
 		font-size: 10px;
@@ -9290,6 +9290,13 @@ header .nav-container nav ul li:hover span {
 	}
 	.mobile-remove-padd {
 		padding: 0 2px;
+	}
+	.continueshopping-incart, .view-cart-incart, .check-out-shipping-incart {
+		height: 25px;
+		width: 90%;
+	}
+	.check-out-shipping-incart {
+		margin-left: 5.6%;
 	}
 }
 
