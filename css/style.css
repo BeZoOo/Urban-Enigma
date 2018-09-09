@@ -7707,6 +7707,40 @@ fieldset, label { margin: 0; padding: 0; }
 	width: 100%;
 }
 
+/* New Arrival Adjustments */
+.new-arrivals-section {
+	margin-bottom: 45vh;
+}
+.carousel-inner > .f-item {
+	height: 222px;
+}
+.carousel-inner > .s-item {
+	height: 300px;
+}
+.carousel-inner > .th-item {
+	height: 320px;
+}
+.carousel-inner > .fo-item {
+	height: 247px;
+}
+.fo-item-margin {
+	margin-top: -7.5%;
+}
+.bracket {
+	height: 106vh;
+}
+.f-carousle {
+	top: 86%;
+}
+.s-carousle {
+	top: 89%;
+}
+.th-carousle {
+	top: 90%;
+}
+.fo-carousle {
+	top: 87%;
+}
 /* Genral Query */
 @media screen and (max-width:1980px) and (min-width:1661) {
     .about-container {
