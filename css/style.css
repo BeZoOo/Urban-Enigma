@@ -7754,6 +7754,27 @@ fieldset, label { margin: 0; padding: 0; }
 		}
 }
 @media screen and (min-width:1661px) {
+		.new-arrivals-section {
+			margin-bottom: 15vh;
+		}
+		.th-item {
+			margin-top: -1.5%;
+		}
+		.f-carousle {
+			top: 78%;
+		}
+		.s-carousle {
+    	top: 82%;
+		}
+		.th-carousle {
+    	top: 83%;
+		}
+		.fo-carousle {
+    	top: 79%;
+		}
+		.bracket {
+    	height: 70vh;
+		}
 		.item-succcess {
 			 height: auto;
 		}
