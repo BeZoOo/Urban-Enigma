@@ -9288,6 +9288,9 @@ header .nav-container nav ul li:hover span {
 	.incart-item-title {
 		margin-top: 3%;
 	}
+	.mobile-remove-padd {
+		padding: 0 2px;
+	}
 }
 
 @media only screen and (max-width: 768px) and (min-width: 500px) {
