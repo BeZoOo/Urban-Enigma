@@ -9294,6 +9294,7 @@ header .nav-container nav ul li:hover span {
 	.continueshopping-incart, .view-cart-incart, .check-out-shipping-incart {
 		height: 25px;
 		width: 90%;
+		margin-bottom: 8%;
 	}
 	.check-out-shipping-incart {
 		margin-left: 5.6%;
