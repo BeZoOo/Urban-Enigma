@@ -141,7 +141,7 @@ a:hover {
 .container-main {
     position:relative;
     margin:auto;
-    width:75%!important;
+    width:1170px;
     z-index:10;
 }
 /*.container-main.container-main.product-section {
@@ -7724,7 +7724,7 @@ fieldset, label { margin: 0; padding: 0; }
 	height: 247px;
 }
 .fo-item-margin {
-	margin-top: -7%;
+	margin-top: -7.5%;
 }
 .bracket {
 	height: 106vh;
@@ -7754,15 +7754,6 @@ fieldset, label { margin: 0; padding: 0; }
 		}
 }
 @media screen and (min-width:1661px) {
-		.carousel-inner > .f-item {
-  	  height: 245px;
-		}
-		.carousel-inner > .th-item {
-    	height: 335px;
-		}
-		.fo-item-margin {
-    	margin-top: -4.5%;
-		}
 		.new-arrivals-section {
 			margin-bottom: 15vh;
 		}
