@@ -9226,11 +9226,23 @@ header .nav-container nav ul li:hover span {
 	.select-items div,.select-selected {
 		text-align: center;
 		margin-top: 5%;
-	  color: #565455;
+	  color: #5A5859;
 	  padding: 1px 5px;
 	  border: 1px solid transparent;
 	  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
 	  cursor: pointer;
+	}
+	.select-items div {
+		color: #DD8028;
+	}
+	.select-selected {
+		-webkit-box-shadow: 3px 3px 3px #282527;
+		-moz-box-shadow: 3px 3px 3px #282527;
+		-o-box-shadow: 3px 3px 3px #282527;
+		box-shadow: 3px 3px 3px #282527;
+	}
+	.size-diff-color {
+		color: #565455!important;
 	}
 	/*style items (options):*/
 	.select-items {
