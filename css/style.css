@@ -9148,7 +9148,7 @@ header .nav-container nav ul li:hover span {
 				width: 0px;
 		}
 		.category-items .fig-image-bg {
-			height: auto;
+			height: 230px;
 		}
 		.thumb-indicators {
 			left: 20%;
@@ -9308,7 +9308,7 @@ header .nav-container nav ul li:hover span {
 	}
 	.reposition {
 		position: fixed;
-		top: 19%;
+		top: 22%;
 		cursor: pointer;
 		left: -3%;
 	}
