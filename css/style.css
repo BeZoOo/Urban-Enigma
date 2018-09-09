@@ -9300,10 +9300,10 @@ header .nav-container nav ul li:hover span {
 		margin-left: 5.6%;
 	}
 	.addtocart-screen {
-		max-width: 80%;
-		width: 80%;
-		right: 10%;
-		height: 380px;
+		max-width: 90%;
+		width: 90%;
+		right: 4%;
+		height: 490px;
 		position: fixed;
 	}
 	.reposition {
@@ -9316,10 +9316,10 @@ header .nav-container nav ul li:hover span {
 		width: 100%;
 	}
 	.addtocart-screen-scroll {
-		height: 230px;
+		height: 330px;
 	}
 	.cart-buttons-cont {
-		width: 105%;
+		width: 90%;
 	}
 	.first-item-in {
 		margin-top: 30%;
