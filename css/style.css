@@ -9299,6 +9299,31 @@ header .nav-container nav ul li:hover span {
 	.check-out-shipping-incart {
 		margin-left: 5.6%;
 	}
+	.addtocart-screen {
+		max-width: 80%;
+		width: 80%;
+		right: 10%;
+		height: 380px;
+		position: fixed;
+	}
+	.reposition {
+		position: fixed;
+		top: 19%;
+		cursor: pointer;
+		left: -3%;
+	}
+	.reposition img {
+		width: 100%;
+	}
+	.addtocart-screen-scroll {
+		height: 230px;
+	}
+	.cart-buttons-cont {
+		width: 105%;
+	}
+	.first-item-in {
+		margin-top: 30%;
+	}
 }
 
 @media only screen and (max-width: 768px) and (min-width: 500px) {
