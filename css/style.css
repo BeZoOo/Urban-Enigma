@@ -8937,7 +8937,8 @@ header .nav-container nav ul li:hover span {
 				margin-bottom: 0;
 		}
 		header .nav-inner {
-				padding-top: 5px;
+				padding-top: 0;
+				margin: 0;
 		}
 		.gallery-image h3 {
 				font-size: 0.61em;
@@ -9262,6 +9263,30 @@ header .nav-container nav ul li:hover span {
 	}
 	.add-to-cart-container {
 		margin-top: 7px;
+	}
+	.fixed-popup {
+		width: 80%;
+		height: 100%;
+		top: 9%;
+		left: 13%;
+	}
+	.item-succcess {
+		height: 145px;
+	}
+	.added-success-word {
+		font-size: 10px;
+	}
+	.incart-item-title, .incart-item-qty, .incart-item-total {
+		font-size: 10px;
+	}
+	.incartsub-total {
+		font-size: 13px;
+	}
+	.allincart-items {
+		font-size: 11px;
+	}
+	.incart-item-title {
+		margin-top: 3%;
 	}
 }
 
