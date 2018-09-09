@@ -7778,6 +7778,12 @@ fieldset, label { margin: 0; padding: 0; }
 		.th-margin {
 			margin-top: -1%;
 		}
+		.capt-sm {
+			bottom: 45px;
+		}
+		.capt-lg {
+			bottom: 50px;
+		}
 		.item-succcess {
 			 height: auto;
 		}
