@@ -7986,6 +7986,27 @@ fieldset, label { margin: 0; padding: 0; }
 }
 
 @media screen and (max-width:1285px){
+		.container-main {
+			margin-top: -3%;
+		}
+		.bracket {
+			height: 77vh;
+		}
+		.f-carousle {
+    	top: 81%;
+		}
+		.th-carousle {
+    	top: 85%;
+		}
+		.fo-carousle {
+    	top: 81%;
+		}
+		.s-carousle {
+    	top: 85%;
+		}
+		.fo-item-margin {
+    	margin-top: -7.8%;
+		}
 		.item-succcess {
 			width: 100%;
 			height: 400px;
