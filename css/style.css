@@ -8007,6 +8007,9 @@ fieldset, label { margin: 0; padding: 0; }
 		.fo-item-margin {
     	margin-top: -7.8%;
 		}
+		.capt-sm {
+    	bottom: 40px;
+		}
 		.item-succcess {
 			width: 100%;
 			height: 400px;
