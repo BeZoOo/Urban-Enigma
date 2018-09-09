@@ -354,7 +354,7 @@
                                     Remember to set the width:-->
                                     <div class="custom-select" style="width:100%;">
                                       <select>
-                                        <option value="0">Size</option>
+                                        <option value="0" style="color: #565455;">Size</option>
                                         <option value="s">S</option>
                                         <option value="m">M</option>
                                         <option value="l">L</option>
@@ -659,7 +659,7 @@
                                     <option value="4xl">4XL</option>
                                   </select>
                                 </div>
-                                
+
                                   <ul class="cat-size hidden-xs">
                                     <li class="small-img"><img src="images/small.png" alt="small"></li>
                                     <li class="medium-img"><img src="images/medium.png" alt="medium"></li>
@@ -2470,41 +2470,13 @@
 
                             <li class="back-bag hvr-backward"><a href="#"><img src="images/back-cat.png" alt="arrow" /></a></li>
 
-                            <select class="select-size-mob">
-                              <option>
-
-                              </option>
-                              <option>
-                                S
-                              </option>
-                              <option>
-                                M
-                              </option>
-                              <option>
-                                L
-                              </option>
-                              <option>
-                                XL
-                              </option>
-                              <option>
-                                2XL
-                              </option>
-                              <option>
-                                3XL
-                              </option>
-                              <option>
-                                4XL
-                              </option>
-                            </select>
-                              <ul class="cat-size hidden-xs">
-                                <li class="small-img"><img src="images/small.png" alt="small"></li>
-                                <li class="medium-img"><img src="images/medium.png" alt="medium"></li>
-                                <li class="large-img"><img src="images/large.png" alt="large"></li>
-                                <li class="xlarge-img"><img src="images/xlarge.png" alt="xlarge"></li>
-                                <li class="xxlarge-img"><img src="images/xxlarge.png" alt="2xlarge"></li>
-                                <li class="xxxlarge-img"><img src="images/xxxlarge.png" alt="3xlarge"></li>
-                                <li class="xxxxlarge-img"><img src="images/xxxxlarge.png" alt="4xlarge"></li>
-                              </ul>
+                            <ul class="cat-pagin">
+                                <li class="active"><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li class="hidden-xs"><a href="#">5</a></li>
+                            </ul>
 
                             <li class="next-bag hvr-forward"><a href="#"><img src="images/next-cat.png" alt="arrow" /></a></li>
 
@@ -3068,9 +3040,16 @@
           }
           }
         }
+
         /*if the user clicks anywhere outside the select box,
         then close all select boxes:*/
         document.addEventListener("click", closeAllSelect);
+        $(document).ready(function() {
+          $('.select-items div').click(function () {
+            $(this).parent().siblings('.select-selected').css('color','#DD8028');
+            $('.select-items').addClass('select-hide');
+          });
+        });
       </script>
 
 </body>
