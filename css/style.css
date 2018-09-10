@@ -2786,7 +2786,7 @@ header .burger {
 }
 figcaption .captt {
 	font-size: 13px;
-	font-family: 'MyriadPro-BoldCond';
+	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: bold;
 	text-align: center;
 }
@@ -2905,14 +2905,15 @@ figcaption .captt {
 }
 .cat-details {
 	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	height: 0;
-	z-index: 0;
-  opacity: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  transition: .3s ease;
 	background: rgba(221, 128, 40, 0.7);
-	transition: 0.5s all ease-in-out;
 }
 .item-info {
 	font-family: 'MyriadPro-BoldCond';
@@ -2940,10 +2941,8 @@ figcaption .captt {
 	color: rgb(221, 128, 40);
 }
 .fig-image-bg:hover .cat-details {
-	height: 100%;
-	z-index: 1;
-  opacity: 1;
-	transition: 0.5s all ease-in-out;
+	transform: scale(1);
+	transition: .3s ease;
 }
 .category-items .fig-image-bg {
     position:relative;
@@ -3604,7 +3603,7 @@ fieldset, label { margin: 0; padding: 0; }
 			height: 395px;
 	}
 	figcaption .captt {
-			font-size: 25px;
+			font-size: 22px;
 	}
 	.about-container {
       padding-bottom:0;
@@ -7919,8 +7918,14 @@ fieldset, label { margin: 0; padding: 0; }
 }
 
 @media screen and (max-width:1370px){
+		.addtocart-screen {
+			height: 495px;
+		}
+		.addtocart-screen-scroll {
+			max-height: 342px;
+		}
 		.main-cont {
-				margin-top: 3%;
+			margin-top: 3%;
 		}
 		.thumb-indicators {
 			margin-top: 2%;
@@ -7983,9 +7988,61 @@ fieldset, label { margin: 0; padding: 0; }
 		.next-bag {
 			top: 1px;
 		}
+		.container-main {
+			margin-top: -2%;
+		}
+		.h1-title {
+    	margin-top: 65px;
+		}
+		.fo-item-margin {
+    	margin-top: -5%;
+		}
+		.carousel-inner > .th-item,
+		.carousel-inner > .s-item {
+    	height: 170px;
+		}
+		.carousel-inner > .f-item,
+		.carousel-inner > .fo-item {
+    	height: 120px;
+		}
+		.f-carousle {
+	    top: 78%;
+		}
+		.th-carousle {
+    	top: 83%;
+		}
+		.fo-carousle {
+	    top: 78%;
+		}
+		.s-carousle {
+	    top: 83%;
+		}
+		.bracket {
+	    height: 66vh;
+		}
+		.new-arrivals-section {
+	    margin-bottom: 15vh;
+		}
 }
 
 @media screen and (max-width:1285px){
+		.addtocart-screen {
+			height: 610px;
+		}
+		.addtocart-screen-scroll {
+			max-height: 450px;
+		}
+		.new-arrivals-section {
+			margin-bottom: 45vh;
+		}
+		.carousel-inner > .f-item,
+		.carousel-inner > .fo-item {
+	    height: 210px;
+		}
+		.carousel-inner > .th-item,
+		.carousel-inner > .s-item {
+	    height: 280px;
+		}
 		.container-main {
 			margin-top: -2%;
 		}
@@ -9391,7 +9448,7 @@ header .nav-container nav ul li:hover span {
 		max-width: 90%;
 		width: 90%;
 		right: 4%;
-		height: 490px;
+		height: 472px;
 		position: fixed;
 	}
 	.reposition {
